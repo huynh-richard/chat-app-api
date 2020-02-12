@@ -1,0 +1,6 @@
+applications:
+    -   name: chat-app-api 
+        memory: 512M
+        disk_quota: 1024M
+        instances: 1
+        buildpack: dotnet_core_buildpack
